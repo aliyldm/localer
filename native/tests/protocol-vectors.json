@@ -1,0 +1,258 @@
+[
+  {
+    "code": "LCL-ABCDE-FGHJK-LMNPQ-RSTUV-WXYZ23",
+    "name": "localer-85cb4c93c321ec60da3da82d",
+    "secret": "165fc4b0f8f89f672ca050de55e061362554c9bd0722b330fa3d688555aaf0e6",
+    "subnet": "10.69.203.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-ABCDE-FGHJK-LMNPQ-RSTUV-WXYZ23?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-VSDQ5-ZPKWG-QNX6X-25SXZ-XUCBZ5",
+    "name": "localer-1f3f16dceb6a32798fa22bbe",
+    "secret": "4add55d603b5158764a81eb5746511aaebb8ef02c2a489d3ffa59e387098062b",
+    "subnet": "10.95.63.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-VSDQ5-ZPKWG-QNX6X-25SXZ-XUCBZ5?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-YBN5L-KTBRA-HEQK2-DGQ67-VDL8Q5",
+    "name": "localer-34637569624ebe5f587ba641",
+    "secret": "e60c4d68b69a63ba015e61fb6a90a8f35f603b9c7c6acc51c3169436447c2c1b",
+    "subnet": "10.116.99.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-YBN5L-KTBRA-HEQK2-DGQ67-VDL8Q5?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-VY97V-EG2BF-Y3MXV-PRDR3-AZHK8B",
+    "name": "localer-95a508759b02b34aae222b18",
+    "secret": "d97b33a381b555ce02440b0e6bf26e87f26dc486fe532719180df65688974854",
+    "subnet": "10.85.165.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-VY97V-EG2BF-Y3MXV-PRDR3-AZHK8B?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-72QNE-49DC9-52PXM-4TLMT-WV6GXN",
+    "name": "localer-3cd25abd45054706913b241e",
+    "secret": "73c16e9dbfddd41fb241f5dae43e13b33a95030dce02c1be5de301e694c7eeb9",
+    "subnet": "10.124.210.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-72QNE-49DC9-52PXM-4TLMT-WV6GXN?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-NFNNY-BVUBT-ZANUJ-ABYU4-ZGGEJC",
+    "name": "localer-bae7ef4208d4c95c23bac8ce",
+    "secret": "846c8cfe5b65299e16cc8e431c0870c0008e62585dc0d21fd9e5debbe0a502ea",
+    "subnet": "10.122.231.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-NFNNY-BVUBT-ZANUJ-ABYU4-ZGGEJC?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-CGMXG-A3TD7-VCTBX-R5J47-ZKN4A4",
+    "name": "localer-2456170fb5077319cbf5f17a",
+    "secret": "310ca01170bd297557037562e324c4247e3095d7e3b280498e9f1cd951d925e1",
+    "subnet": "10.100.86.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-CGMXG-A3TD7-VCTBX-R5J47-ZKN4A4?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-D4W8N-8E2RZ-5CGH7-B2KHR-DZ398J",
+    "name": "localer-0df016f009866883469473f3",
+    "secret": "92cbb68f03dea5fbaaf14a0eb6ebba22985ff116be1d5ed0bb01640ed6f31d64",
+    "subnet": "10.77.240.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-D4W8N-8E2RZ-5CGH7-B2KHR-DZ398J?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-A4MG6-QM8T5-FJXJC-HFSVR-4KXUU7",
+    "name": "localer-f38c82746ada18ee5309c7f6",
+    "secret": "b8df687a97ce154a4c320884fc988f55df568a55469f07fae7c92fb58879c9c6",
+    "subnet": "10.115.140.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-A4MG6-QM8T5-FJXJC-HFSVR-4KXUU7?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-RFPTU-CTX3R-SJZBP-MRTCM-6HGR3Y",
+    "name": "localer-624017df3d757a9e4f45b508",
+    "secret": "d56ccada40feeecf1e3167307042687663c229e91a19fcf4a4bd12987b0da0f7",
+    "subnet": "10.98.64.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-RFPTU-CTX3R-SJZBP-MRTCM-6HGR3Y?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-2F8S3-Z463J-8N2TL-H6Z2Q-ZSG5FG",
+    "name": "localer-d443aad6bb7beede25e91e7c",
+    "secret": "f105e1ad737ce1d1ebb2b3b7e03ac0220354775e42966418f49f171df52e807d",
+    "subnet": "10.84.67.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-2F8S3-Z463J-8N2TL-H6Z2Q-ZSG5FG?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-MFFMA-5WFPN-F49S3-KA2N3-5JWZYW",
+    "name": "localer-4da7b7e19616e0ef03204e8a",
+    "secret": "9c8790275249a9b473aee1c66f74d7d6cd300523f5422520f3be5fdb6826789b",
+    "subnet": "10.77.167.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-MFFMA-5WFPN-F49S3-KA2N3-5JWZYW?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-DLM7T-J9T2M-BEAMK-ELAZS-J7XNEU",
+    "name": "localer-d3ef8566838c63a893c8ee9e",
+    "secret": "5d84c7dd9cbbd1b50cf5f1bc8b28efc3ce0aee2922bc6d8f02efa8d8b68caaff",
+    "subnet": "10.83.239.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-DLM7T-J9T2M-BEAMK-ELAZS-J7XNEU?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-G26MP-Z6XRX-4WH5L-89Z2Z-ENXKGU",
+    "name": "localer-bff456d8dcf383492f0f3d64",
+    "secret": "85329363961da95dc8ab2a4187c685e1b1c7a9ff6d69d3c7b7726c65b2a90912",
+    "subnet": "10.127.244.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-G26MP-Z6XRX-4WH5L-89Z2Z-ENXKGU?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-EWLEK-C2Y5S-UGL35-5PLXH-Q6TNDQ",
+    "name": "localer-7c2b394212e4b5a580e4dce3",
+    "secret": "463a7b505a9e7595c1ef3f9837b48d2c8d56fc2c9deb1f62b7b5f580806cbdbe",
+    "subnet": "10.124.43.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-EWLEK-C2Y5S-UGL35-5PLXH-Q6TNDQ?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-QXWXZ-ZMLLX-GM3X5-Z2ZHG-6H7SSR",
+    "name": "localer-0e135653068c1fce522b255b",
+    "secret": "f60455de1f9f2d5df321df6eea3dd50bc2476abd149aea40f397143d48e43fc6",
+    "subnet": "10.78.19.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-QXWXZ-ZMLLX-GM3X5-Z2ZHG-6H7SSR?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-W343D-6CJ9Z-Q7HDU-3AT3D-B6GJBX",
+    "name": "localer-e80423b13eb2d8f005a2afa3",
+    "secret": "5243884a684cfd832e989258d0cef1199ca6467910f012a6f25efe72c7ea6cae",
+    "subnet": "10.104.4.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-W343D-6CJ9Z-Q7HDU-3AT3D-B6GJBX?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-46W7M-GQ2RV-SX8TG-M9NJN-G8W4UK",
+    "name": "localer-970497734b159ef871ddaf5b",
+    "secret": "4b26a5565418dc907598940f2d6705030ccafe7923fe67e6d47140730bf89052",
+    "subnet": "10.87.4.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-46W7M-GQ2RV-SX8TG-M9NJN-G8W4UK?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-4HYNK-PXJS9-JJJFG-VUPAQ-FQEDFC",
+    "name": "localer-4eb900e1a290d70a70a7d8f0",
+    "secret": "4eec93d8e6884b1c0cfb15e7da9b82d871d29be0ac9f34c4b962d4f6bee7448c",
+    "subnet": "10.78.185.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-4HYNK-PXJS9-JJJFG-VUPAQ-FQEDFC?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-VVWP5-MPHWJ-EGEC8-KVRFQ-M5H8FK",
+    "name": "localer-8cca3736ab5e7a0b5c282bf2",
+    "secret": "93675adc2bced62d36ee6dc6c2d7bf02a5f9c8a7dc1c0f0203359c650a2fd8ec",
+    "subnet": "10.76.202.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-VVWP5-MPHWJ-EGEC8-KVRFQ-M5H8FK?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-PX4H4-A9J8H-TGMU2-HC57Q-3GH4E7",
+    "name": "localer-9054300eccd88202e359651c",
+    "secret": "3d555d911f0f3d5f343a3081f3d6e0b0a6d1b222d3aa1307a5649fb6ff1677ea",
+    "subnet": "10.80.84.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-PX4H4-A9J8H-TGMU2-HC57Q-3GH4E7?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-DFHTK-BZKLX-HPKLE-G8Y9Y-WNCNCZ",
+    "name": "localer-4ee6e2c09abd6a46b82fb378",
+    "secret": "751815fd23668b2f6a8818771c984213ec84585db6f975690ef7a1432562b984",
+    "subnet": "10.78.230.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-DFHTK-BZKLX-HPKLE-G8Y9Y-WNCNCZ?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-4Y3CJ-EBTGR-5XXYX-E74Q9-WSXLRK",
+    "name": "localer-c7f8c9878725d57143e6d3be",
+    "secret": "a03c13b82fd6a3062f0d43dbaf573e0a996ee071e44901d10a6098eeacb27a4e",
+    "subnet": "10.71.248.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-4Y3CJ-EBTGR-5XXYX-E74Q9-WSXLRK?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-XBHXU-JKPF9-MYSQN-B6MQR-FMR2L9",
+    "name": "localer-b29f9481dcd903173ab489ff",
+    "secret": "07fa3d132b02b9de17ff0eaf64a4622c72e2a23b51df29b907e6fea7985fa5b3",
+    "subnet": "10.114.159.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-XBHXU-JKPF9-MYSQN-B6MQR-FMR2L9?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-7R4B5-S8FWQ-EZ7XH-4AJFX-JACVB6",
+    "name": "localer-e115f607628834343a39658d",
+    "secret": "ef61778f0e681004f826d53122a50f7fc0f98b9131d46310710342de28eaae64",
+    "subnet": "10.97.21.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-7R4B5-S8FWQ-EZ7XH-4AJFX-JACVB6?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-UJSEM-VZLAR-3D469-TNGS6-9LLTA2",
+    "name": "localer-94ce7405b8cbe483c703eef9",
+    "secret": "6bbcd4b034fe5e5fd73d6c98987312704fef193cd94b656f07ffa169b1970c5a",
+    "subnet": "10.84.206.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-UJSEM-VZLAR-3D469-TNGS6-9LLTA2?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-EKR5W-PJSQC-NUAJ5-4ZNHT-BV38P2",
+    "name": "localer-87fd0c6e973601b3cf688a62",
+    "secret": "7245db473ac58222597304cc522d164e6c7e7518a7b8a206917215d74cfcc630",
+    "subnet": "10.71.253.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-EKR5W-PJSQC-NUAJ5-4ZNHT-BV38P2?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-KRS4F-C7C4G-2X85Q-V8M6M-HKZZS9",
+    "name": "localer-c4b3ef65c203d08cc280c81f",
+    "secret": "9e0dbfd06a022187633ba6884b79e55df9e7434fcc17f767a639062ee1a8cb2f",
+    "subnet": "10.68.179.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-KRS4F-C7C4G-2X85Q-V8M6M-HKZZS9?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-ETBHZ-SUTR6-ALJAD-RSSKY-W6S97Y",
+    "name": "localer-66f6afad30c9c58d959e2ae9",
+    "secret": "d0157289659c9f0014ba0d86ec6aa0b77f056b9af6cb46ed21cf3145e4feeaee",
+    "subnet": "10.102.246.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-ETBHZ-SUTR6-ALJAD-RSSKY-W6S97Y?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-79SQY-CSXZP-UG9WB-T72N2-JLE94A",
+    "name": "localer-2ffd1d5849e25c794c2d58d5",
+    "secret": "4bca0b9c03cc23d215662baa72b8f49a6979b121ebb1df70fb6fc0201ef40f81",
+    "subnet": "10.111.253.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-79SQY-CSXZP-UG9WB-T72N2-JLE94A?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-E9799-8YCUW-LL86X-8N7Q6-HPX73M",
+    "name": "localer-47e109bccf44e3c9d936556a",
+    "secret": "276e53df21b70a84bfaabfafb6a6becfa3c8d7e363a266da2668e4b685a65c70",
+    "subnet": "10.71.225.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-E9799-8YCUW-LL86X-8N7Q6-HPX73M?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  },
+  {
+    "code": "LCL-6N4KZ-K4F36-JKJLP-R68SK-EXU7ZB",
+    "name": "localer-57ab634d42664c11c6441a1c",
+    "secret": "fdbb57095aa9b34d985d28e456958f632b7582caafa473a8b3d332e305eb187f",
+    "subnet": "10.87.171.1/24",
+    "relay": "tcp://38.76.179.190:11010",
+    "invite": "localer://join/LCL-6N4KZ-K4F36-JKJLP-R68SK-EXU7ZB?relay=tcp%3A%2F%2F38.76.179.190%3A11010"
+  }
+]

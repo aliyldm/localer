@@ -1,0 +1,12 @@
+node_modules/
+dist/
+vendor/
+artifacts/
+*.log
+build/
+aqtinstall.log
+.env
+.env.*
+!.env.example
+.vs/
+CMakeUserPresets.json

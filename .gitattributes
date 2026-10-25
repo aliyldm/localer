@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.ico binary
+*.png binary
+# Keep the downloaded upstream notice verbatim.
+licenses/WinPcap-LICENSE.html -text -whitespace

@@ -1,0 +1,41 @@
+{
+  "name": "localer",
+  "version": "0.3.0",
+  "description": "Arkadaşlarınla oda koduyla aynı sanal ağa bağlan.",
+  "author": "Localer",
+  "license": "Apache-2.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-qt.ps1",
+    "start:electron": "electron .",
+    "test": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/test-qt.ps1",
+    "test:electron": "node --test test/*.test.js",
+    "test:engine": "node scripts/engine-smoke.js",
+    "test:relay": "node scripts/engine-smoke.js --relay tcp://38.76.179.190:11010",
+    "test:tun": "node scripts/tun-smoke.js",
+    "test:tun:scoped": "node scripts/tun-smoke.js --allow-test-ports",
+    "test:ui": "electron . --smoke-test",
+    "build": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-qt.ps1",
+    "build:electron": "electron-builder --win portable --x64"
+  },
+  "devDependencies": {
+    "electron": "44.9.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "app.localer.desktop",
+    "productName": "Localer",
+    "asar": true,
+    "files": ["src/**/*", "assets/**/*", "package.json", "LICENSE", {"from":"docs/ELECTRON-THIRD-PARTY-NOTICES.md","to":"THIRD-PARTY-NOTICES.md"}],
+    "extraResources": [
+      { "from": "vendor/easytier/easytier-windows-x86_64", "to": "easytier", "filter": ["easytier-core.exe", "easytier-cli.exe", "wintun.dll"] },
+      { "from": "vendor/packet-api/Packet.dll", "to": "easytier/Packet.dll" },
+      { "from": "licenses", "to": "licenses" },
+      { "from": "vendor/EasyTier-v2.6.4-source.zip", "to": "sources/EasyTier-v2.6.4-source.zip" }
+    ],
+    "directories": { "output": "dist" },
+    "electronDist": "node_modules/electron/dist",
+    "win": { "target": "portable", "icon": "assets/localer.ico", "requestedExecutionLevel": "requireAdministrator", "artifactName": "Localer-Electron-${version}-Windows-x64.exe" },
+    "portable": { "requestExecutionLevel": "admin" }
+  }
+}

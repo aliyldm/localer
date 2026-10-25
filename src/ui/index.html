@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Localer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="renderer.js" defer></script>
+</head>
+<body>
+  <header class="app-header"><div class="brand"><img src="../../assets/localer.png" width="28" height="28" alt="">Localer</div><div class="header-status"><span class="status-dot" id="header-dot"></span><span id="header-status">Bağlı değil</span></div></header>
+  <main>
+    <section class="intro"><h1>Arkadaşlarınla aynı ağda.</h1><p>Bir oda oluştur veya davet koduyla arkadaşlarına katıl.</p></section>
+    <div class="admin-notice" id="admin-notice" hidden><p>Bağlantı kurmak için yönetici izni gerekiyor.</p><button class="secondary" id="elevate">Yönetici olarak aç</button></div>
+    <div class="error-banner" id="error" role="alert" hidden></div>
+    <section class="card" id="setup">
+      <div class="tabs" role="tablist" aria-label="Oda işlemi"><button id="create-tab" class="active" data-tab="create" role="tab" aria-selected="true" aria-controls="create-panel">Oda oluştur</button><button id="join-tab" data-tab="join" role="tab" aria-selected="false" aria-controls="join-panel" tabindex="-1">Odaya katıl</button></div>
+      <div class="panel" id="create-panel" role="tabpanel" aria-labelledby="create-tab"><h2>Yeni bir oda aç</h2><p class="muted">Oluşan davet kodunu arkadaşlarınla paylaş.</p><form id="create-form"><label for="nickname">Cihaz adın</label><input id="nickname" placeholder="Örn. Arda-PC" maxlength="32" autocomplete="off" required><button class="primary" id="create-room" type="submit">Oda oluştur</button></form></div>
+      <div class="panel" id="join-panel" role="tabpanel" aria-labelledby="join-tab" hidden><h2>Arkadaşlarına katıl</h2><p class="muted">Aldığın kodu veya davet bağlantısını yapıştır.</p><form id="join-form"><label for="invite">Davet kodu veya bağlantısı</label><input id="invite" placeholder="LCL-…" maxlength="1024" spellcheck="false" autocomplete="off" required><label for="join-nickname">Cihaz adın</label><input id="join-nickname" placeholder="Örn. Arda-PC" maxlength="32" autocomplete="off" required><button class="primary" id="join-room" type="submit">Odaya katıl</button></form></div>
+    </section>
+    <section class="card room-card" id="active-room" hidden>
+      <div class="room-heading"><h2 id="active-name">Arkadaş odası</h2><button class="text-button danger" id="leave">Odadan ayrıl</button></div>
+      <div class="network-status"><span class="status-dot" id="network-dot"></span><strong id="network-status">Bağlanıyor…</strong></div><p class="muted connection-detail" id="relay-status">Sunucu bağlantısı bekleniyor.</p>
+      <div class="ip-box"><div><label>Sanal IP adresin</label><strong id="my-ip">Hazırlanıyor…</strong></div><button class="secondary" id="copy-ip" disabled>IP’yi kopyala</button></div>
+      <div class="invite-box"><label>Davet kodu</label><code id="room-code"></code><div class="invite-actions"><button class="secondary" id="copy-code">Kodu kopyala</button><button class="text-button" id="copy-invite">Davet bağlantısını kopyala</button></div><p class="field-hint" id="invite-hint">Bu kodu yalnızca güvendiğin kişilerle paylaş.</p></div>
+      <div class="peers-heading"><h3>Cihazlar <span id="peer-count">0</span></h3><span>Canlı</span></div><div id="peers" aria-live="polite"></div>
+      <p class="room-tip" id="room-tip">IP adresin göründüğünde oyun veya servisine bu adresle bağlanabilirsiniz.</p>
+    </section>
+    <details class="disclosure" id="settings"><summary>Bağlantı ayarları</summary><div class="disclosure-body"><label for="relay">Buluşma sunucusu</label><input id="relay" spellcheck="false" maxlength="256" aria-describedby="relay-help"><p id="relay-help" class="field-hint">Varsayılan topluluk sunucusunu veya kendi EasyTier sunucunu kullanabilirsin. Özel sunucuda arkadaşlarına tam davet bağlantısını gönder.</p></div></details>
+    <details class="disclosure" id="help"><summary>Nasıl bağlanırım?</summary><div class="disclosure-body help-content"><p><strong>Oyun:</strong> Sunucuyu açan kişinin sanal IP adresini ve oyun portunu, oyunun doğrudan bağlantı alanına yaz.</p><p><strong>Yerel web servisi:</strong> Servisi <code>0.0.0.0</code> üzerinde dinlet. Arkadaşların <code>http://sanal-IP:port</code> adresini açsın.</p><p><strong>Cihaz görünüyor ama servis açılmıyorsa:</strong> Windows güvenlik duvarında servisi çalıştıran uygulamaya veya gereken TCP/UDP portuna gelen bağlantı izni ver. İzni mümkünse odanın sanal ağıyla sınırla. Localer’ın yönetici izni, diğer uygulamaların servis portlarını açmaz; güvenlik duvarını kapatmana gerek yok.</p><p>Kodu bilenler odaya girebilir. Bu sürümde kişi çıkarma yok; gerektiğinde yeni oda aç. Otomatik LAN keşfi her oyunda çalışmayabilir. İnternet çıkışınız ortak olmaz.</p></div></details>
+    <details class="disclosure" id="logs" hidden><summary>Bağlantı günlüğü</summary><pre id="log-output">Henüz bağlantı başlatılmadı.</pre></details>
+    <footer><span id="version">Localer 0.2</span><span>Windows · EasyTier</span></footer>
+  </main>
+  <div class="toast" id="toast" role="status" hidden></div>
+</body>
+</html>
