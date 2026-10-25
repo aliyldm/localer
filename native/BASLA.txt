@@ -1,0 +1,19 @@
+LOCALER 0.3.0 - Windows 64 bit
+
+1. ZIP dosyasinin tamamini bir klasore cikart.
+2. Klasordeki Localer.exe dosyasini ac ve Windows yonetici iznini ver.
+3. Biriniz "Oda olustur" ile oda acip tam davet baglantisini paylassin.
+4. Digeriniz "Odaya katil" ekranina bu daveti yapistirsin.
+5. Cihazlar gorununce oyun veya servise sanal IP ve portuyla baglanin.
+
+Iki bilgisayarda da bu ayni paketi kullanin. Yalnizca EXE dosyasini
+gondermeyin veya tasimayin; yanindaki klasor ve DLL dosyalari gereklidir.
+Qt, Node.js veya Python kurmaniz gerekmez.
+
+Oyun otomatik oda bulamazsa dogrudan sanal IP ile baglanin.
+Servis 0.0.0.0 veya sanal IP uzerinde dinlemeli; sadece localhost yetmez.
+Gerekirse Windows guvenlik duvarinda paylastiginiz oyun/servis icin izin
+verin. Guvenlik duvarini tamamen kapatmayin.
+
+Odadan ayrilmak veya pencereyi kapatmak sanal ag baglantisini sonlandirir.
+Ayrintili bilgi: OKU-BENI.md

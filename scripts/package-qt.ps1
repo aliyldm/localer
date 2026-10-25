@@ -25,6 +25,7 @@ Copy-Item -LiteralPath (Join-Path $projectRoot 'vendor\qt-source-archives\qtbase
 Copy-Item -LiteralPath (Join-Path $projectRoot 'LICENSE') -Destination $stage -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'native\THIRD-PARTY-NOTICES.md') -Destination $stage -Force
 Copy-Item -LiteralPath (Join-Path $projectRoot 'native\README.md') -Destination (Join-Path $stage 'OKU-BENI.md') -Force
+Copy-Item -LiteralPath (Join-Path $projectRoot 'native\BASLA.txt') -Destination $stage -Force
 $sourcePayload = Join-Path $projectRoot 'artifacts\qt\source-payload'
 New-Item -ItemType Directory -Force -Path $sourcePayload | Out-Null
 Copy-Item -LiteralPath (Join-Path $projectRoot 'CMakeLists.txt'),(Join-Path $projectRoot 'LICENSE') -Destination $sourcePayload -Force
